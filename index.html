@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="stylesheet" href="index.css">
-  <script src="Cookies_boil.js"></script>
-  <script defer type="text/javascript" src="index.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
-  <title>
-    Dessert
-  </title>
+    <link rel="stylesheet" href="index.css">
+    <script src="Cookies_boil.js"></script>
+    <script defer type="text/javascript" src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <title>
+        CookieTime
+    </title>
 </head>
+
 <body>
-  <h1> My Cookie Shop </h1>
+    <button onclick="emptyCart" id="emptyCart">Empty Cart</button>
 
-  <div id="wrapper">
-  <div id="chocolateCookieImage"><img src="http://www.recipegirl.com/wp-content/uploads/2007/11/Flourless-Chocolate-Cookies-2.jpg"></img>
-  </div>
-  <div id="sugarCookieImage"><img src="http://www.eatfunfoods.com/img-SugarCookieStock.jpg"></img>
-  </div>
-  <div id="lemonCookieImage"> <img src="https://thebearfootbaker.com/wp-content/uploads/2013/08/Lemon-Cookies-Recipe-thebearfootbaker.com_.jpg"></img></div>
-</div>
+    <h1> NYC Cookies </h1>
 
-<div class="wrapperButton">
-  <button onclick="chocolateButton" id="chocolateButton">Chocolate Cookie</button>
-  <button onclick="sugarButton" id="sugarButton">Sugar Cookie</button>
-  <button onclick="lemonButton" id="lemonButton">Lemon Cookie</button>
-</div>
+    <div id="images">
+        <div id="chocoImg"><img src="http://themondaybox.com/wp-content/uploads/2014/01/img_1810_3.jpg"></img>
+        </div>
+        <div id="sugarImg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLn4BfUbT0OlagPvyQGgWt9SEcsgmmp80kvhJqBGVxlC8lWqeL"></img>
+        </div>
+        <div id="lemonImg"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3obRNQhierQyjEDE7vhPoPSlymWFL_n6gl-GSRG0yyNwDYTzaog"></img>
+        </div>
+    </div>
 
-<button onclick="clear_box" id="clear_box">Clear Cookies</button>
-
+    <div class="buttons">
+        <button onclick="chocolateButton" id="chocolateButton">Chocolate Cookies</button>
+        <button onclick="sugarButton" id="sugarButton">Sugar Cookies</button>
+        <button onclick="lemonButton" id="lemonButton">Lemon Cookies</button>
+    </div>
 
 
 </body>
-<footer>
+<footer class="fakeFooter">
+    <h6>Copyright Nyc Cookies, 2017</h6>
 </footer>
+
 </html>

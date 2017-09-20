@@ -1,121 +1,131 @@
-h1{
-  text-align: center;
-  font-family: 'Spirax', cursive;
-  font-size: 40px;
-}
-body{
-  background-color: #99ffff;
+h1 {
+    text-align: center;
+    font-family: 'Lobster';
+    font-size: 70px;
 }
 
-/*================================*/
-/*=========Images CSS=======================*/
-
-#wrapper{
-  flex-direction: row;
-
-}
-#lemonCookieImage{
-position: relative;
-display: inline;
-width: 200px;
-height: 200px;
-
-margin: 20px 20px 20px 20px;
-right: 200px;
+body {
+    background-color: Chocolate;
 }
 
-#chocolateCookieImage{
-display: inline;
-position: relative;
-width: 200px;
-height: 200px;
-margin: 20px 20px 20px 20px;
-left:850px;
-}
-#sugarCookieImage{
-display: inline;
-position: relative;
-width: 200px;
-height: 200px;
-margin: 20px 20px 20px 20px;
-left: 320px;
-}
-#chocolateCookieImage img{
-position: relative;
-width: 200px;
-height: 200px;
-border-radius: 30px;
+#emptyCart {
+    float: right;
+    width: 103px;
+    height: 80px;
+    padding: 20px 20px;
+    border: 3px solid #ffff66;
+    font-family: 'Spirax', cursive;
+    font-size: 15px;
+    background-color: #8B4513;
+    border-radius: 30px;
+    margin-top: 50px;
 }
 
-#sugarCookieImage img{
-position: relative;
-width: 200px;
-height: 200px;
-border-radius: 30px;
+#images {
+    flex-direction: row;
 }
 
-#lemonCookieImage img{
-position: relative;
-width: 200px;
-height: 200px;
-border-radius: 30px;
-}
-/*================================*/
-/*=========Buttons CSS=======================*/
-
- .wrapperButton #sugarButton{
-  position: relative;
-  width: 200px;
-  height: 200px;
-  padding: 20px 20px;
-  border: 6px solid #ffff66;
-  font-family: 'Spirax', cursive;
-  background-color: #ff6699;
-  font-size: 25px;
-  border-radius: 30px;
-  left: 590px;
-  margin-top: 50px;
-}
-.wrapperButton #chocolateButton{
-  position: relative;
-  width: 200px;
-  height: 200px;
-  padding: 20px 20px;
-  border: 6px solid #ffff66;
-  font-family: 'Spirax', cursive;
-  right: 260px;
-  font-size: 25px;
-  border-radius: 30px;
-  float: right;
-  margin-top: 50px;
-  background-color: #ff6699;
-}
-.wrapperButton #lemonButton{
-  position: relative;
-  width: 200px;
-  height: 200px;
-  padding: 20px 20px;
-  border: 6px solid #ffff66;
-  font-family: 'Spirax', cursive;
-  font-size: 25px;
-  background-color: #ff6699;
-  border-radius: 30px;
-  margin-top: 50px;
-  left:110px;
+#lemonImg {
+    position: relative;
+    display: inline;
+    width: 220px;
+    height: 220px;
+    margin: 20px 20px 20px 20px;
+    right: 200px;
 }
 
-#clear_box{
-  position: relative;
-  width: 200px;
-  height: 200px;
-  padding: 20px 20px;
-  border: 6px solid #ffff66;
-  font-family: 'Spirax', cursive;
-  font-size: 25px;
-  background-color: #ff6699;
-  border-radius: 30px;
-  margin-top: 50px;
+#chocoImg {
+    display: inline;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px 20px 20px;
+    left: 850px;
+}
 
+#sugarImg {
+    display: inline;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px 20px 20px;
+    left: 320px;
+}
 
+#chocoImg img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
 
+#sugarImg img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+#lemonImg img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.buttons #chocolateButton {
+    position: relative;
+    width: 175px;
+    height: 175px;
+    padding: 20px 20px;
+    border: 5px solid #D2B48C;
+    font-family: 'Comic Sans', cursive;
+    right: 430px;
+    font-size: 30px;
+    border-radius: 30px;
+    float: right;
+    margin-top: 50px;
+    background-color: #8B4513;
+}
+
+.buttons #lemonButton {
+    position: relative;
+    width: 175px;
+    height: 175px;
+    padding: 20px 20px;
+    border: 5px solid #D2B48C;
+    font-family: 'Chalkboard', cursive;
+    font-size: 30px;
+    background-color: #8B4513;
+    border-radius: 30px;
+    margin-top: 50px;
+    left: 110px;
+}
+
+.buttons #sugarButton {
+    position: relative;
+    width: 175px;
+    height: 175px;
+    padding: 20px 20px;
+    border: 5px solid #D2B48C;
+    font-family: 'Spirax', cursive;
+    background-color: #8B4513;
+    font-size: 30px;
+    border-radius: 30px;
+    left: 590px;
+    margin-top: 50px;
+}
+
+.fakeFooter {
+    text-align: center;
+    font-family: 'Lobster';
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+	div {
+		color: blue;
+		width: auto;
+		float: none;
+	}
 }
