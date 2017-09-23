@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         console.log(isNaN(var_sugar));
 
-        if (isNaN(var_sugar) === true || isNaN(var_lemon) === true || isNaN(var_choco) === true) { //this works
+        if (isNaN(var_sugar) === true || isNaN(var_lemon) === true || isNaN(var_choco) === true) {
             return (sugar.innerHTML = lemon.innerHTML = chocolate.innerHTML = '0')
         }
         //lemon.innerHTML = '0',
